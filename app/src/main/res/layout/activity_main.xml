@@ -52,7 +52,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="이메일을 입력하시오"
-        android:minHeight="48dp"/>
+        android:minHeight="48dp"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호을 입력하시오"
+        android:minHeight="48dp"
+        android:maxLines="1"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"/>
+
 
 
 </LinearLayout>
