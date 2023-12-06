@@ -70,8 +70,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
         android:text="로그인"/>
-
+<!--ㅡmargin Vertical을 줌으로써 로그인버튼이 비밀번호 EditText로부터 20dp만큼 멀어졌다-->
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
